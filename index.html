@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#F9F3EE]">
+    <div
+      class="sticky top-0 z-40 backdrop-blur bg-[#F9F3EE]/85 border-b border-[#E4D7C8]"
+    >
+      <div
+        class="max-w-7xl mx-auto px-5 lg:px-8 h-16 flex items-center justify-between"
+      >
+        <a href="index.html" class="flex items-center gap-2">
+          <img src="assets/logo.png" alt="NaturaDrops" class="h-11 w-11 rounded-full object-cover" />
+          <div>
+            <div class="font-serif text-lg leading-none text-[#3D1F0D]">
+              NaturaDrops
+            </div>
+            <div class="text-[10px] tracking-[0.18em] uppercase text-[#7B3F1A]">
+              Natural | Aromatherapy
+            </div>
+          </div>
+        </a>
+        <nav class="hidden md:flex items-center gap-1">
+          <a
+            href="index.html"
+            class="rounded-md px-3 py-2 text-[#3D1F0D] hover:bg-[#C7B7A4]"
+            >Beranda</a
+          >
+          <a
+            href="catalog.html"
+            class="rounded-md px-3 py-2 text-[#3D1F0D] hover:bg-[#C7B7A4]"
+            >Katalog</a
+          >
+          <a
+            href="index.html#edukasi"
+            class="rounded-md px-3 py-2 text-[#3D1F0D] hover:bg-[#C7B7A4]"
+            >Edukasi</a
+          >
+          <a
+            href="index.html#tentang"
+            class="rounded-md px-3 py-2 text-[#3D1F0D] hover:bg-[#C7B7A4]"
+            >Tentang</a
+          >
+        </nav>
+        <div class="flex items-center gap-2">
+          <a
+            href="cart.html"
+            class="relative btn-ghost flex items-center gap-2 rounded-full px-4 py-2 text-[#3D1F0D] hover:bg-[#C7B7A4]"
+          >
+            <img src="assets/cart.png" alt="Keranjang" class="h-6 w-6 object-contain" />
+            <span class="hidden sm:inline">Keranjang</span>
+          </a>
+          <div id="auth-guest" class="hidden sm:flex items-center gap-2">
+            <a
+              href="login.html"
+              class="rounded-full px-4 py-2 text-sm font-semibold text-[#3D1F0D] hover:bg-[#C7B7A4]"
+              >Login</a
+            >
+            <a
+              href="register.html"
+              class="hidden lg:inline-flex rounded-full px-4 py-2 text-sm font-semibold text-[#3D1F0D] hover:bg-[#C7B7A4]"
+              >Register</a
+            >
+          </div>
+          <a
+            href="profile.html"
+            class="relative btn-ghost flex items-center gap-2 rounded-full px-4 py-2 text-[#3D1F0D] hover:bg-[#C7B7A4]"
+          >
+            <span
+              id="profile-initial"
+              class="flex h-6 w-6 items-center justify-center rounded-full bg-[#EBF1E5] text-xs font-semibold text-[#3D1F0D]"
+              >P</span
+            >
+            <span id="profile-name" class="hidden lg:inline ">Profil</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ini hero nya -->
+    <section class="relative overflow-hidden">
+      <div
+        class="max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-2 gap-10 items-center pt-12 lg:pt-20 pb-20"
+      >
+        <div class="fade-in">
+          <div
+            class="font-mono text-xs tracking-[0.3em] uppercase text-[#7B3F1A]"
+          >
+            Edisi Musim Semi • 2026
+          </div>
+          <h1
+            class="font-serif text-5xl lg:text-6xl leading-[1.1] mt-4 text-[#3D1F0D] font-normal"
+          >
+            Aroma yang<br />menemani
+            <em class="text-[#7B3F1A] font-serif italic not-italic"
+              >setiap napas.</em
+            >
+          </h1>
+          <p class="mt-6 text-[#3D1F0D]/70 max-w-lg leading-relaxed text-base">
+            Koleksi essence oil pilihan kurator — dari lavender penenang hingga
+            sandalwood untuk meditasi. Dirancang untuk pengalaman belanja yang
+            tenang dan terpercaya.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              href="/catalog.html"
+              class="px-6 py-2.5 bg-[#3D1F0D] text-[#F9F3EE] rounded-full font-medium hover:bg-[#5A2E14] transition"
+              >Jelajahi Katalog →</a
+            >
+            <a
+              href="#unggulan"
+              class="px-6 py-2.5 border-2 border-[#3D1F0D] text-[#3D1F0D] rounded-full font-medium hover:bg-[#3D1F0D]/5 transition"
+              >Produk Unggulan</a
+            >
+          </div>
+          <div class="mt-12 flex items-center gap-8 text-sm text-[#3D1F0D]/70">
+            <div>
+              <div class="font-serif text-2xl text-[#3D1F0D] font-normal">
+                8+
+              </div>
+              <div>Varian aroma</div>
+            </div>
+            <div>
+              <div class="font-serif text-2xl text-[#3D1F0D] font-normal">
+                100%
+              </div>
+              <div>Murni & organik</div>
+            </div>
+            <div>
+              <div class="font-serif text-2xl text-[#3D1F0D] font-normal">
+                4.8★
+              </div>
+              <div>Rating pelanggan</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative h-[500px] lg:h-[600px]">
+          <div
+            class="absolute inset-0 bg-[#C9956A]/10 rounded-[40px] blur-3xl"
+          ></div>
+          <br />
+          <br />
+          <br />
+          <img
+            src="assets/hero.jpg"
+            alt="Botol essence oil dengan lavender dan eucalyptus"
+            class="relative rounded-[24px] shadow-2xl w-full object-cover"
+            width="1600"
+            height="900"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Ini tipe tipe essential oil nya-->
+    <section class="max-w-7xl mx-auto px-5 lg:px-8 py-10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <a
+          href="/catalog.html?category=floral"
+          class="group p-6 rounded-2xl bg-white hover:bg-[#3D1F0D] transition-colors"
+        >
+          <div
+            class="font-serif text-2xl text-[#3D1F0D] group-hover:text-[#F9F3EE]"
+          >
+            Floral
+          </div>
+          <div
+            class="text-xs text-[#3D1F0D]/60 group-hover:text-[#F9F3EE]/70 mt-1"
+          >
+            Lavender, Rose
+          </div>
+        </a>
+        <a
+          href="/catalog.html?category=herbal"
+          class="group p-6 rounded-2xl bg-white hover:bg-[#3D1F0D] transition-colors"
+        >
+          <div
+            class="font-serif text-2xl text-[#3D1F0D] group-hover:text-[#F9F3EE]"
+          >
+            Herbal
+          </div>
+          <div
+            class="text-xs text-[#3D1F0D]/60 group-hover:text-[#F9F3EE]/70 mt-1"
+          >
+            Eucalyptus, Tea Tree
+          </div>
+        </a>
+        <a
+          href="/catalog.html?category=citrus"
+          class="group p-6 rounded-2xl bg-white hover:bg-[#3D1F0D] transition-colors"
+        >
+          <div
+            class="font-serif text-2xl text-[#3D1F0D] group-hover:text-[#F9F3EE]"
+          >
+            Citrus
+          </div>
+          <div
+            class="text-xs text-[#3D1F0D]/60 group-hover:text-[#F9F3EE]/70 mt-1"
+          >
+            Lemon, Orange
+          </div>
+        </a>
+        <a
+          href="/catalog.html?category=woody"
+          class="group p-6 rounded-2xl bg-white hover:bg-[#3D1F0D] transition-colors"
+        >
+          <div
+            class="font-serif text-2xl text-[#3D1F0D] group-hover:text-[#F9F3EE]"
+          >
+            Woody
+          </div>
+          <div
+            class="text-xs text-[#3D1F0D]/60 group-hover:text-[#F9F3EE]/70 mt-1"
+          >
+            Sandalwood, Cedar
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- pilihan ahli-->
+    <section id="unggulan" class="max-w-7xl mx-auto px-5 lg:px-8 py-14">
+      <div class="flex items-end justify-between mb-8">
+        <div>
+          <div
+            class="font-mono text-xs uppercase tracking-widest text-[#7B3F1A]"
+          >
+            Produk Unggulan
+          </div>
+          <h2 class="font-serif text-4xl text-[#3D1F0D] mt-1">
+            Pilihan Ahli
+          </h2>
+        </div>
+        <a href="/catalog.html" class="hidden md:inline-block link text-sm"
+          >Lihat semua →</a
+        >
+      </div>
+      <div
+        id="featured"
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 auto-rows-fr"
+      ></div>
+    </section>
+
+    <!-- Edukasi cara make barang jualan dlll-->
+    <section id="edukasi" class="max-w-7xl mx-auto px-5 lg:px-8 py-14">
+      <div class="grid lg:grid-cols-3 gap-10 items-start">
+        <div class="lg:col-span-1 space-y-4">
+          <div
+            class="font-mono text-xs uppercase tracking-widest text-[#7B3F1A]"
+          >
+            Edukasi
+          </div>
+          <h2 class="font-serif text-4xl leading-tight text-[#3D1F0D]">
+            Belajar aroma, satu cerita demi satu.
+          </h2>
+          <p class="text-base text-[#3D1F0D]/70 leading-relaxed">
+            Panduan ringkas untuk memilih, menyimpan, dan menggunakan essence
+            oil agar manfaatnya optimal.
+          </p>
+        </div>
+        <div class="lg:col-span-2 grid sm:grid-cols-2 gap-6">
+          <article
+            class="bg-white rounded-[24px] p-8 shadow-[0_16px_40px_rgba(76,38,12,0.08)] hover:shadow-[0_24px_60px_rgba(76,38,12,0.12)] transition"
+          >
+            <div
+              class="inline-block mb-4 px-4 py-2 rounded-full bg-[#8A9E7B] text-[11px] uppercase tracking-[0.18em] font-semibold text-white"
+            >
+              Panduan
+            </div>
+            <h3 class="font-serif text-2xl text-[#3D1F0D] mb-3">
+              Memilih Aroma untuk Tidur
+            </h3>
+            <p class="text-[#3D1F0D]/70 leading-relaxed">
+              Kombinasi lavender + sandalwood untuk relaksasi maksimal sebelum
+              tidur.
+            </p>
+          </article>
+          <article
+            class="bg-white rounded-[24px] p-8 shadow-[0_16px_40px_rgba(76,38,12,0.08)] hover:shadow-[0_24px_60px_rgba(76,38,12,0.12)] transition"
+          >
+            <div
+              class="inline-block mb-4 px-4 py-2 rounded-full bg-[#7B3F1A] text-[11px] uppercase tracking-[0.18em] font-semibold text-white"
+            >
+              Tips
+            </div>
+            <h3 class="font-serif text-2xl text-[#3D1F0D] mb-3">
+              Cara Pakai Diffuser
+            </h3>
+            <p class="text-[#3D1F0D]/70 leading-relaxed">
+              Rasio air dan tetes minyak yang tepat untuk diffuser ultrasonik.
+            </p>
+          </article>
+          <article
+            class="bg-white rounded-[24px] p-8 shadow-[0_16px_40px_rgba(76,38,12,0.08)] hover:shadow-[0_24px_60px_rgba(76,38,12,0.12)] transition"
+          >
+            <div
+              class="inline-block mb-4 px-4 py-2 rounded-full bg-[#C9956A] text-[11px] uppercase tracking-[0.18em] font-semibold text-white"
+            >
+              Highlight
+            </div>
+            <h3 class="font-serif text-2xl text-[#3D1F0D] mb-3">
+              Citrus untuk Pagi Hari
+            </h3>
+            <p class="text-[#3D1F0D]/70 leading-relaxed">
+              Lemon dan peppermint, dua sahabat fokus di meja kerja.
+            </p>
+          </article>
+          <article
+            class="bg-white rounded-[24px] p-8 shadow-[0_16px_40px_rgba(76,38,12,0.08)] hover:shadow-[0_24px_60px_rgba(76,38,12,0.12)] transition"
+          >
+            <div
+              class="inline-block mb-4 px-4 py-2 rounded-full bg-[#6B4423] text-[11px] uppercase tracking-[0.18em] font-semibold text-white"
+            >
+              Premium
+            </div>
+            <h3 class="font-serif text-2xl text-[#3D1F0D] mb-3">
+              Mengenal Rose Absolute
+            </h3>
+            <p class="text-[#3D1F0D]/70 leading-relaxed">
+              Mengapa rose absolute lebih kaya dari rose oil biasa.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- tentang kami-->
+    <section id="tentang" class="max-w-7xl mx-auto px-5 lg:px-8 py-14">
+      <div
+        class="bg-[#3D1F0D] text-[#F9F3EE] rounded-3xl p-10 lg:p-14 grid lg:grid-cols-2 gap-8 items-center"
+      >
+        <div>
+          <div
+            class="font-mono text-xs uppercase tracking-widest text-[#C9956A]"
+          >
+            Tentang AromaNusantara
+          </div>
+          <h2 class="font-serif text-4xl mt-2">
+            Dibuat untuk yang mencari ketenangan.
+          </h2>
+        </div>
+        <p class="text-[#F9F3EE]/80 leading-relaxed">
+          Setiap botol dipilih berdasarkan kualitas distilasi, sumber bahan, dan
+          kemurnian. Kami percaya aroma yang baik adalah investasi kecil untuk
+          hari-hari yang lebih lapang.
+        </p>
+      </div>
+    </section>
+    <!-- Ini footer-->
+    <footer class="mt-24 bg-[#3D1F0D] text-[#F9F3EE]">
+      <div
+        class="max-w-7xl mx-auto px-5 lg:px-8 py-14 grid md:grid-cols-4 gap-10"
+      >
+        <div class="md:col-span-2">
+          <div class="font-serif text-2xl mb-3">AromaNusantara</div>
+          <p class="text-sm text-[#F9F3EE]/70 max-w-md leading-relaxed">
+            Marketplace essence oil & aromaterapi pilihan kurator. Dibuat untuk
+            pengalaman belanja yang tenang, informatif, dan terpercaya.
+          </p>
+        </div>
+        <div>
+          <div
+            class="font-mono text-xs uppercase tracking-widest text-[#C9956A] mb-3"
+          >
+            Belanja
+          </div>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/catalog.html?category=floral"
+                class="hover:text-[#C9956A]"
+                >Floral</a
+              >
+            </li>
+            <li>
+              <a
+                href="/catalog.html?category=herbal"
+                class="hover:text-[#C9956A]"
+                >Herbal</a
+              >
+            </li>
+            <li>
+              <a
+                href="/catalog.html?category=citrus"
+                class="hover:text-[#C9956A]"
+                >Citrus</a
+              >
+            </li>
+            <li>
+              <a
+                href="/catalog.html?category=woody"
+                class="hover:text-[#C9956A]"
+                >Woody</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div
+            class="font-mono text-xs uppercase tracking-widest text-[#C9956A] mb-3"
+          >
+            Bantuan
+          </div>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:text-[#C9956A]">Cara Pemesanan</a></li>
+            <li><a href="#" class="hover:text-[#C9956A]">Pengiriman</a></li>
+            <li>
+              <a href="#" class="hover:text-[#C9956A]">Kebijakan Privasi</a>
+            </li>
+            <li><a href="#" class="hover:text-[#C9956A]">Hubungi Kami</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10">
+        <div
+          class="max-w-7xl mx-auto px-5 lg:px-8 py-5 text-xs text-[#F9F3EE]/60 flex flex-col sm:flex-row justify-between gap-2"
+        >
+          <div>© 2026 AromaNusantara. Made with care in Indonesia.</div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/auth.js"></script>
+    <script src="js/featured.js"></script>
+  </body>
+</html>

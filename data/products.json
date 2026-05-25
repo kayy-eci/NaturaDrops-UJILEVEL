@@ -1,0 +1,179 @@
+[
+  {
+    "id": "lavender",
+    "name": "Lavender Murni",
+    "price": 145000,
+    "volume": "15ml",
+    "category": "floral",
+    "benefit": "relaksasi",
+    "image": "assets/p-lavender.jpg",
+    "badges": ["Best Seller", "Organik"],
+    "stock": 42,
+    "rating": 4.9,
+    "reviews": 218,
+    "short": "Aroma floral menenangkan untuk membantu tidur lebih nyenyak.",
+    "description": "Essential oil Lavender 100% murni hasil distilasi uap dari bunga lavender pilihan. Cocok untuk diffuser, pijat aromaterapi, atau ditambahkan ke air mandi.",
+    "benefits": [
+      "Membantu relaksasi & kualitas tidur",
+      "Meredakan stres dan kecemasan",
+      "Menenangkan kulit yang iritasi"
+    ],
+    "usage": "Teteskan 3-5 tetes ke diffuser bersama 100ml air. Untuk topikal, campur dengan carrier oil (rasio 1:10).",
+    "composition": "100% Lavandula angustifolia oil, tanpa pengawet & pewarna sintetis."
+  },
+  {
+    "id": "eucalyptus",
+    "name": "Eucalyptus Segar",
+    "price": 119000,
+    "volume": "15ml",
+    "category": "herbal",
+    "benefit": "fokus",
+    "image": "assets/p-eucalyptus.jpg",
+    "badges": ["Organik"],
+    "stock": 30,
+    "rating": 4.7,
+    "reviews": 96,
+    "short": "Aroma segar menyegarkan pernapasan & meningkatkan fokus.",
+    "description": "Eucalyptus oil dengan kandungan 1,8-cineole tinggi untuk pernapasan lega dan ruangan yang segar.",
+    "benefits": [
+      "Melegakan saluran pernapasan",
+      "Menyegarkan udara ruangan",
+      "Meningkatkan konsentrasi"
+    ],
+    "usage": "4-6 tetes pada diffuser, atau 1-2 tetes pada air panas untuk inhalasi uap.",
+    "composition": "100% Eucalyptus globulus oil."
+  },
+  {
+    "id": "peppermint",
+    "name": "Peppermint Cool",
+    "price": 129000,
+    "volume": "15ml",
+    "category": "herbal",
+    "benefit": "energi",
+    "image": "assets/p-peppermint.jpg",
+    "badges": ["Baru"],
+    "stock": 25,
+    "rating": 4.8,
+    "reviews": 64,
+    "short": "Sensasi mint dingin yang membangkitkan energi.",
+    "description": "Peppermint oil murni untuk semangat pagi, mengurangi sakit kepala ringan, dan menyegarkan pikiran.",
+    "benefits": [
+      "Membangkitkan energi & fokus",
+      "Meredakan sakit kepala ringan",
+      "Menyegarkan ruangan kerja"
+    ],
+    "usage": "3 tetes pada diffuser atau roll-on di pelipis (campur carrier oil).",
+    "composition": "100% Mentha piperita oil."
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon Sunshine",
+    "price": 99000,
+    "volume": "15ml",
+    "category": "citrus",
+    "benefit": "energi",
+    "image": "assets/p-lemon.jpg",
+    "badges": ["Best Seller"],
+    "stock": 60,
+    "rating": 4.6,
+    "reviews": 142,
+    "short": "Aroma citrus cerah untuk mood yang lebih ceria.",
+    "description": "Lemon essential oil cold-pressed dari kulit lemon segar. Aroma cerah dan menyegarkan.",
+    "benefits": [
+      "Mood booster alami",
+      "Membersihkan udara",
+      "Menambah konsentrasi"
+    ],
+    "usage": "5 tetes pada diffuser pagi hari. Hindari paparan sinar matahari langsung pada kulit.",
+    "composition": "100% Citrus limon peel oil."
+  },
+  {
+    "id": "teatree",
+    "name": "Tea Tree Pure",
+    "price": 135000,
+    "volume": "15ml",
+    "category": "herbal",
+    "benefit": "fokus",
+    "image": "assets/p-teatree.jpg",
+    "badges": ["Organik"],
+    "stock": 38,
+    "rating": 4.7,
+    "reviews": 88,
+    "short": "Antiseptik alami untuk kulit & ruangan.",
+    "description": "Tea tree oil murni dengan kemampuan antibakteri alami, ideal untuk perawatan kulit dan rumah bersih.",
+    "benefits": [
+      "Antibakteri & antiseptik alami",
+      "Mengurangi jerawat ringan",
+      "Menyegarkan udara"
+    ],
+    "usage": "1 tetes pada cotton bud untuk titik jerawat, atau 4 tetes pada diffuser.",
+    "composition": "100% Melaleuca alternifolia oil."
+  },
+  {
+    "id": "rose",
+    "name": "Rose Absolute",
+    "price": 289000,
+    "volume": "10ml",
+    "category": "floral",
+    "benefit": "relaksasi",
+    "image": "assets/p-rose.jpg",
+    "badges": ["Limited Edition"],
+    "stock": 12,
+    "rating": 5.0,
+    "reviews": 31,
+    "short": "Aroma mawar mewah untuk momen istimewa.",
+    "description": "Rose absolute premium dengan aroma floral yang dalam, mewah, dan menenangkan.",
+    "benefits": [
+      "Menenangkan emosi",
+      "Aroma romantis & mewah",
+      "Cocok untuk perawatan kulit"
+    ],
+    "usage": "2 tetes pada diffuser atau campur 1 tetes ke serum wajah.",
+    "composition": "100% Rosa damascena absolute."
+  },
+  {
+    "id": "sandalwood",
+    "name": "Sandalwood Earth",
+    "price": 219000,
+    "volume": "10ml",
+    "category": "woody",
+    "benefit": "tidur",
+    "image": "assets/p-sandalwood.jpg",
+    "badges": ["Best Seller"],
+    "stock": 18,
+    "rating": 4.9,
+    "reviews": 73,
+    "short": "Aroma woody hangat untuk meditasi & tidur dalam.",
+    "description": "Sandalwood oil dengan karakter woody yang mendalam, mendukung meditasi dan tidur berkualitas.",
+    "benefits": [
+      "Mendalamkan meditasi",
+      "Membantu tidur nyenyak",
+      "Aroma grounding & hangat"
+    ],
+    "usage": "3 tetes pada diffuser di kamar tidur 30 menit sebelum tidur.",
+    "composition": "100% Santalum album oil."
+  },
+  {
+    "id": "diffuser",
+    "name": "Diffuser Kayu Premium",
+    "price": 349000,
+    "volume": "300ml",
+    "category": "alat",
+    "benefit": "relaksasi",
+    "form": "diffuser",
+    "image": "assets/p-diffuser.jpg",
+    "badges": ["Baru"],
+    "stock": 22,
+    "rating": 4.8,
+    "reviews": 54,
+    "short": "Diffuser ultrasonik bermotif kayu, lampu mood 7 warna.",
+    "description": "Ultrasonic diffuser kapasitas 300ml dengan timer & lampu LED 7 warna. Hening dan hemat daya.",
+    "benefits": [
+      "Hening (<25dB)",
+      "Auto shut-off saat air habis",
+      "7 warna lampu ambient"
+    ],
+    "usage": "Isi air hingga garis maksimum, tambahkan 4-6 tetes essential oil.",
+    "composition": "Casing bermotif kayu, BPA-free PP."
+  }
+]

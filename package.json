@@ -1,0 +1,19 @@
+{
+  "name": "ujilevel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
