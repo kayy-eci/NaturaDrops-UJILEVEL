@@ -9,4 +9,4 @@ Features :
 - cart
 - chechout
 
-I made this project for school assignment. 
+
